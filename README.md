@@ -11,6 +11,7 @@ CS50 Problem sets solved
 - [Week4](https://cs50.harvard.edu/x/2021/weeks/4/) -  Memory
 - [Week5](https://cs50.harvard.edu/x/2021/weeks/5/) - Data Structures
 - [Week6](https://cs50.harvard.edu/x/2021/weeks/6/) - Python
+- [Week7](https://cs50.harvard.edu/x/2021/weeks/7/) - SQL
 
 
 # :bug: Issues
