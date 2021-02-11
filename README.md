@@ -12,6 +12,7 @@ CS50 Problem sets solved
 - [Week5](https://cs50.harvard.edu/x/2021/weeks/5/) - Data Structures
 - [Week6](https://cs50.harvard.edu/x/2021/weeks/6/) - Python
 - [Week7](https://cs50.harvard.edu/x/2021/weeks/7/) - SQL
+- [Week8](https://cs50.harvard.edu/x/2021/weeks/7/) - HTML, CSS and Javascript
 
 
 # :bug: Issues
