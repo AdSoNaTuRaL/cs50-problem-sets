@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+
+            // TODO: Add code to check answers to questions
+            function checkAnswerOne(team) {
+                document.querySelectorAll('button').forEach(btn => {
+                    btn.style.backgroundColor = "#d9edff";
+                });
+
+                if (team == "flamengo") {
+                    document.getElementById(team).style.backgroundColor = "#00ff00";
+                    document.getElementById('ansnwer').innerHTML = "Correct!";
+                } else {
+                    document.getElementById(team).style.backgroundColor = "#ff0000"
+                    document.getElementById('ansnwer').innerHTML = "Incorrect!"
+                }
+            }
+
+            function checkAnswerTwo() {
+                let answer = document.getElementById('inputQuestion2').value;
+
+                if (answer.trim().toLowerCase() === 'palmeiras') {
+                    document.getElementById('inputQuestion2').style.backgroundColor = "#00ff00";
+                    document.getElementById('answer2').innerHTML = "Correct!";
+                } else {
+                    document.getElementById('inputQuestion2').style.backgroundColor = "#ff0000";
+                    document.getElementById('answer2').innerHTML = "Incorrect!";
+                }
+            }
+
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the best football team in the world?</h3>
+                <p id="ansnwer"></p>
+                <button id="flamengo" onclick='checkAnswerOne("flamengo"); '>Flamengo</button>
+                <button id="barcelona" onclick='checkAnswerOne("barcelona"); '>Barcelona</button>
+                <button id="realmadrid"onclick='checkAnswerOne("realmadrid");'>Real Madrid</button>
+                <button id="botafogo" onclick='checkAnswerOne("botafogo"); '>Botafogo</button>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+
+                <!-- TODO: Add free response question here -->
+                <h3>Which Brazilian soccer team is not a world champion?</h3>
+                <p id="answer2"></p>
+                <input id="inputQuestion2" type="text">
+                <button id="check" onclick="checkAnswerTwo()">Check Answer</button>
+
+            </div>
+
+        </div>
+    </body>
+</html>
