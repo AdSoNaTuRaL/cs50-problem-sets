@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #212529;
+}
+
+h2 {
+    text-align: left;
+}
+
+.github {
+    text-align: center;
+    align-items: center;
+}
+
+.linkedin {
+     text-align: center
+}
+
+.section {
+    text-align: justify;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+
+}
+
+#low {
+    position: absolute;
+}
