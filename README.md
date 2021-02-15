@@ -13,6 +13,7 @@ CS50 Problem sets solved
 - [Week6](https://cs50.harvard.edu/x/2021/weeks/6/) - Python
 - [Week7](https://cs50.harvard.edu/x/2021/weeks/7/) - SQL
 - [Week8](https://cs50.harvard.edu/x/2021/weeks/7/) - HTML, CSS and Javascript
+- [Week9](https://cs50.harvard.edu/x/2021/weeks/9/) - Flask
 
 
 # :bug: Issues
