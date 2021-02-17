@@ -14,6 +14,7 @@ CS50 Problem sets solved
 - [Week7](https://cs50.harvard.edu/x/2021/weeks/7/) - SQL
 - [Week8](https://cs50.harvard.edu/x/2021/weeks/7/) - HTML, CSS and Javascript
 - [Week9](https://cs50.harvard.edu/x/2021/weeks/9/) - Flask
+- [Week10](https://cs50.harvard.edu/x/2021/weeks/10/) - Ethics
 
 
 # :bug: Issues
