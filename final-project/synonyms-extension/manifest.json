@@ -1,0 +1,16 @@
+{
+    "name": "synonyms-extension",
+    "version": "1.0",
+    "description": "Shows synonyms for english words",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Synonyms"
+    },
+    "icons": {
+        "16": "16.png",
+        "32": "32.png",
+        "48": "48.png",
+        "128": "128.png"
+    }
+}
