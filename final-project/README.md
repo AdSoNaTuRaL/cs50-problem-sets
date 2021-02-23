@@ -18,8 +18,6 @@ const tokenID = 'yourTokenIDHere';
 
 > For UID and tokenID you should check https://www.synonyms.com/synonyms_api.php
 
-<br />
-
 ### :two: After that, go to [Chrome Extensions](chrome://extensions) and enable Developer Mode.
 
 <img src="https://user-images.githubusercontent.com/26275918/108840580-dad86d00-75d6-11eb-9c21-a3744ef0c7e2.png">
