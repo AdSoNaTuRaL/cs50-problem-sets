@@ -1,7 +1,7 @@
 {
   "name": "synonyms-extension",
   "version": "1.0",
-  "description": "Shows synonyms for english words",
+  "description": "Shows synonyms for english/portuguese words",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "popup.html",
