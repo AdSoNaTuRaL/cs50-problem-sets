@@ -1,6 +1,6 @@
 {
   "name": "synonyms-extension",
-  "version": "1.0",
+  "version": "0.0.1",
   "description": "Shows synonyms for english/portuguese words",
   "manifest_version": 2,
   "browser_action": {
