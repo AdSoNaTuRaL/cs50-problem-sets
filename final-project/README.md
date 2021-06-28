@@ -6,7 +6,7 @@
 
 ## :question: How to use
 
-### 💢 If you want to use for English words, you need to create a config.js file inside ```synonyms-extension``` folder:
+### ⛔️ If you want to use for English words, you need to create a config.js file inside ```synonyms-extension``` folder:
 
 ```javascript 
 const urlCORS = 'YourCORSURLHere';
@@ -18,7 +18,7 @@ const tokenID = 'yourTokenIDHere';
 
 > For UID and tokenID you should check https://www.synonyms.com/synonyms_api.php
 
-### 💢 If you want to use only for Portuguese words, just tick the checkbox (it already recognizes your browser's language and automatically ticks the checkbox)
+### ⛔️ If you want to use only for Portuguese words, just tick the checkbox (it already recognizes your browser's language and automatically ticks the checkbox)
 
 <img src="https://user-images.githubusercontent.com/26275918/123665748-dd72f980-d838-11eb-803b-3129a4306d65.png">
 
