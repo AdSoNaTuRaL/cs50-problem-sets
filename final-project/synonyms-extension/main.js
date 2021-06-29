@@ -74,6 +74,15 @@ document.addEventListener("DOMContentLoaded", async function () {
       if (word) {
         if (isWord(word)) {
           let result = await getptBRSynonyms(word);
+
+          if (result.length === 0) {
+            document.getElementById("result").innerHTML = `
+              <div class="alert alert-info" role="alert">
+                Nenhum sinônimo encontrado para esta palavra
+              </div>`;
+            return;
+          }
+
           alert = result.toString().split(",");
           newText = alert.join(", ");
 
